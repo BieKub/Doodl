@@ -9,7 +9,7 @@ app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello from Express backend!" });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 30038;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
