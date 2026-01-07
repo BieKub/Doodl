@@ -1,0 +1,58 @@
+.avatarBox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  padding: 20px 28px;
+
+  background: rgba(65, 63, 63, 0.35);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+
+  box-shadow: 
+    0 8px 30px rgba(0, 0, 0, 0.25);
+
+  width: fit-content;
+  margin: 40px auto;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+
+  border-radius: 5%;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+
+  transition: transform 0.25s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  padding: 8px;
+  border-radius: 50%;
+
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.arrow img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+}
+
+.arrow:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.arrow:active {
+  transform: scale(0.95);
+}
