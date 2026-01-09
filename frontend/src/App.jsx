@@ -9,11 +9,16 @@ import MyComponent4 from './MyComponent4.jsx';
 import ToDoList from './ToDoList.jsx';
 import MyComponent5 from './MyComponent5.jsx';
 import ChooseAvatar from './ChooseAvatar.jsx';
+import Background from './Background.jsx';
 
 function App() {
 
   return(
-    <><ChooseAvatar/></>
+    <>
+    <Background>
+      <ChooseAvatar/>
+    </Background>
+    </>
   )
   
 }
