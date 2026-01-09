@@ -5,7 +5,7 @@
 
   padding: 20px 28px;
 
-  background: rgba(65, 63, 63, 0.35);
+  background: rgba(252, 243, 243, 0.979);
   backdrop-filter: blur(10px);
   border-radius: 5px;
 
@@ -13,16 +13,16 @@
     0 8px 30px rgba(0, 0, 0, 0.25);
 
   width: fit-content;
-  margin: 40px auto;
+  margin: -100px auto 40px;
 }
 
 .avatar {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 
   border-radius: 5%;
-  border: 3px solid rgba(255, 255, 255, 0.4);
+  border: 3px solid rgba(5, 5, 5, 0.897);
 
   transition: transform 0.25s ease;
 }
@@ -38,6 +38,7 @@
 
   padding: 8px;
   border-radius: 50%;
+  /* border: 2px solid rgba(5, 5, 5, 0.897); */
 
   transition: background 0.2s ease, transform 0.15s ease;
 }
