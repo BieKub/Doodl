@@ -10,15 +10,16 @@ import ToDoList from './ToDoList.jsx';
 import MyComponent5 from './MyComponent5.jsx';
 import ChooseAvatar from './ChooseAvatar.jsx';
 import Background from './Background.jsx';
+import PlayBox from './PlayBox.jsx';
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./AppRoutes.jsx";
 
 function App() {
 
   return(
-    <>
-    <Background>
-      <ChooseAvatar/>
-    </Background>
-    </>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   )
   
 }
